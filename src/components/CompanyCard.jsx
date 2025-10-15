@@ -1,6 +1,7 @@
 
 import React from "react";
-import { Card, CardContent, Typography, Box, Avatar } from "@mui/material";
+import { Card, CardContent, Typography, Avatar } from "@mui/material";
+// import { Card, CardContent, Typography, Box, Avatar } from "@mui/material";
 import ApartmentIcon from "@mui/icons-material/Apartment";
 import { useTheme } from "@mui/material/styles";
 
