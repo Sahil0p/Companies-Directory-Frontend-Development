@@ -1,0 +1,810 @@
+{
+    "companies": [
+      {
+        "id": 1,
+        "name": "Tata Consultancy Services",
+        "location": "Jaipur",
+        "industry": "Environment",
+        "employees": 418
+      },
+      {
+        "id": 2,
+        "name": "Infosys",
+        "location": "Bengaluru",
+        "industry": "Energy",
+        "employees": 364
+      },
+      {
+        "id": 3,
+        "name": "Wipro",
+        "location": "Gurgaon",
+        "industry": "Healthcare",
+        "employees": 154
+      },
+      {
+        "id": 4,
+        "name": "HCL Technologies",
+        "location": "Delhi",
+        "industry": "Finance",
+        "employees": 324
+      },
+      {
+        "id": 5,
+        "name": "Tech Mahindra",
+        "location": "Hyderabad",
+        "industry": "Energy",
+        "employees": 84
+      },
+      {
+        "id": 6,
+        "name": "Larsen & Toubro",
+        "location": "Delhi",
+        "industry": "Software",
+        "employees": 279
+      },
+      {
+        "id": 7,
+        "name": "Reliance Industries",
+        "location": "Kolkata",
+        "industry": "Automotive",
+        "employees": 466
+      },
+      {
+        "id": 8,
+        "name": "Adani Enterprises",
+        "location": "Kolkata",
+        "industry": "E-commerce",
+        "employees": 245
+      },
+      {
+        "id": 9,
+        "name": "Mahindra & Mahindra",
+        "location": "Mumbai",
+        "industry": "Automotive",
+        "employees": 333
+      },
+      {
+        "id": 10,
+        "name": "Maruti Suzuki",
+        "location": "Delhi",
+        "industry": "E-commerce",
+        "employees": 306
+      },
+      {
+        "id": 11,
+        "name": "Hindustan Unilever",
+        "location": "Hyderabad",
+        "industry": "Finance",
+        "employees": 182
+      },
+      {
+        "id": 12,
+        "name": "ITC Limited",
+        "location": "Delhi",
+        "industry": "Education",
+        "employees": 350
+      },
+      {
+        "id": 13,
+        "name": "Bharti Airtel",
+        "location": "Ahmedabad",
+        "industry": "Software",
+        "employees": 431
+      },
+      {
+        "id": 14,
+        "name": "Axis Bank",
+        "location": "Pune",
+        "industry": "Energy",
+        "employees": 209
+      },
+      {
+        "id": 15,
+        "name": "State Bank of India",
+        "location": "Pune",
+        "industry": "Energy",
+        "employees": 171
+      },
+      {
+        "id": 16,
+        "name": "ICICI Bank",
+        "location": "Bengaluru",
+        "industry": "Education",
+        "employees": 156
+      },
+      {
+        "id": 17,
+        "name": "Kotak Mahindra Bank",
+        "location": "Pune",
+        "industry": "Environment",
+        "employees": 437
+      },
+      {
+        "id": 18,
+        "name": "Bajaj Finance",
+        "location": "Hyderabad",
+        "industry": "Biotech",
+        "employees": 497
+      },
+      {
+        "id": 19,
+        "name": "HDFC Bank",
+        "location": "Ahmedabad",
+        "industry": "Biotech",
+        "employees": 395
+      },
+      {
+        "id": 20,
+        "name": "Tata Motors",
+        "location": "Hyderabad",
+        "industry": "Automotive",
+        "employees": 136
+      },
+      {
+        "id": 21,
+        "name": "HDFC Life",
+        "location": "Hyderabad",
+        "industry": "Biotech",
+        "employees": 309
+      },
+      {
+        "id": 22,
+        "name": "Asian Paints",
+        "location": "Delhi",
+        "industry": "Healthcare",
+        "employees": 331
+      },
+      {
+        "id": 23,
+        "name": "Nestle India",
+        "location": "Jaipur",
+        "industry": "Healthcare",
+        "employees": 291
+      },
+      {
+        "id": 24,
+        "name": "Dr. Reddy's Laboratories",
+        "location": "Chennai",
+        "industry": "E-commerce",
+        "employees": 471
+      },
+      {
+        "id": 25,
+        "name": "Sun Pharma",
+        "location": "Pune",
+        "industry": "Automotive",
+        "employees": 309
+      },
+      {
+        "id": 26,
+        "name": "Biocon",
+        "location": "Kolkata",
+        "industry": "Education",
+        "employees": 57
+      },
+      {
+        "id": 27,
+        "name": "Apollo Hospitals",
+        "location": "Hyderabad",
+        "industry": "E-commerce",
+        "employees": 297
+      },
+      {
+        "id": 28,
+        "name": "Godrej Consumer Products",
+        "location": "Ahmedabad",
+        "industry": "E-commerce",
+        "employees": 282
+      },
+      {
+        "id": 29,
+        "name": "UltraTech Cement",
+        "location": "Jaipur",
+        "industry": "Healthcare",
+        "employees": 112
+      },
+      {
+        "id": 30,
+        "name": "JSW Steel",
+        "location": "Kolkata",
+        "industry": "Energy",
+        "employees": 252
+      },
+      {
+        "id": 31,
+        "name": "Vedanta",
+        "location": "Gurgaon",
+        "industry": "Energy",
+        "employees": 313
+      },
+      {
+        "id": 32,
+        "name": "ONGC",
+        "location": "Chennai",
+        "industry": "Agriculture",
+        "employees": 399
+      },
+      {
+        "id": 33,
+        "name": "Reliance Power",
+        "location": "Gurgaon",
+        "industry": "Biotech",
+        "employees": 493
+      },
+      {
+        "id": 34,
+        "name": "GAIL India",
+        "location": "Bengaluru",
+        "industry": "Energy",
+        "employees": 108
+      },
+      {
+        "id": 35,
+        "name": "Bharat Petroleum",
+        "location": "Chennai",
+        "industry": "Finance",
+        "employees": 195
+      },
+      {
+        "id": 36,
+        "name": "Indian Oil Corporation",
+        "location": "Chennai",
+        "industry": "Finance",
+        "employees": 315
+      },
+      {
+        "id": 37,
+        "name": "Hero MotoCorp",
+        "location": "Kolkata",
+        "industry": "Agriculture",
+        "employees": 79
+      },
+      {
+        "id": 38,
+        "name": "Tata Steel",
+        "location": "Hyderabad",
+        "industry": "Education",
+        "employees": 447
+      },
+      {
+        "id": 39,
+        "name": "Marico",
+        "location": "Mumbai",
+        "industry": "Biotech",
+        "employees": 424
+      },
+      {
+        "id": 40,
+        "name": "Techno Electric",
+        "location": "Ahmedabad",
+        "industry": "Education",
+        "employees": 315
+      },
+      {
+        "id": 41,
+        "name": "Voltas",
+        "location": "Pune",
+        "industry": "Education",
+        "employees": 393
+      },
+      {
+        "id": 42,
+        "name": "Britannia Industries",
+        "location": "Chennai",
+        "industry": "Healthcare",
+        "employees": 399
+      },
+      {
+        "id": 43,
+        "name": "Pidilite Industries",
+        "location": "Gurgaon",
+        "industry": "Finance",
+        "employees": 464
+      },
+      {
+        "id": 44,
+        "name": "Cholamandalam Investment",
+        "location": "Ahmedabad",
+        "industry": "Education",
+        "employees": 12
+      },
+      {
+        "id": 45,
+        "name": "Happiest Minds",
+        "location": "Bengaluru",
+        "industry": "Biotech",
+        "employees": 44
+      },
+      {
+        "id": 46,
+        "name": "Mphasis",
+        "location": "Pune",
+        "industry": "Biotech",
+        "employees": 260
+      },
+      {
+        "id": 47,
+        "name": "Cognizant India",
+        "location": "Jaipur",
+        "industry": "E-commerce",
+        "employees": 168
+      },
+      {
+        "id": 48,
+        "name": "Zensar Technologies",
+        "location": "Chennai",
+        "industry": "Environment",
+        "employees": 490
+      },
+      {
+        "id": 49,
+        "name": "Persistent Systems",
+        "location": "Jaipur",
+        "industry": "Agriculture",
+        "employees": 320
+      },
+      {
+        "id": 50,
+        "name": "Mindtree",
+        "location": "Gurgaon",
+        "industry": "Biotech",
+        "employees": 162
+      },
+      {
+        "id": 51,
+        "name": "NIIT Limited",
+        "location": "Gurgaon",
+        "industry": "Agriculture",
+        "employees": 39
+      },
+      {
+        "id": 52,
+        "name": "KPIT Technologies",
+        "location": "Delhi",
+        "industry": "E-commerce",
+        "employees": 434
+      },
+      {
+        "id": 53,
+        "name": "Lenskart",
+        "location": "Delhi",
+        "industry": "Biotech",
+        "employees": 45
+      },
+      {
+        "id": 54,
+        "name": "Byju's",
+        "location": "Jaipur",
+        "industry": "Healthcare",
+        "employees": 31
+      },
+      {
+        "id": 55,
+        "name": "Unacademy",
+        "location": "Pune",
+        "industry": "Automotive",
+        "employees": 179
+      },
+      {
+        "id": 56,
+        "name": "Vedantu",
+        "location": "Pune",
+        "industry": "Software",
+        "employees": 76
+      },
+      {
+        "id": 57,
+        "name": "UpGrad",
+        "location": "Delhi",
+        "industry": "Energy",
+        "employees": 337
+      },
+      {
+        "id": 58,
+        "name": "OYO Rooms",
+        "location": "Mumbai",
+        "industry": "Energy",
+        "employees": 245
+      },
+      {
+        "id": 59,
+        "name": "Swiggy",
+        "location": "Jaipur",
+        "industry": "Finance",
+        "employees": 317
+      },
+      {
+        "id": 60,
+        "name": "Zomato",
+        "location": "Bengaluru",
+        "industry": "Energy",
+        "employees": 92
+      },
+      {
+        "id": 61,
+        "name": "BigBasket",
+        "location": "Mumbai",
+        "industry": "Software",
+        "employees": 404
+      },
+      {
+        "id": 62,
+        "name": "Flipkart",
+        "location": "Kolkata",
+        "industry": "Energy",
+        "employees": 321
+      },
+      {
+        "id": 63,
+        "name": "Amazon India",
+        "location": "Pune",
+        "industry": "Healthcare",
+        "employees": 225
+      },
+      {
+        "id": 64,
+        "name": "Paytm",
+        "location": "Delhi",
+        "industry": "Education",
+        "employees": 485
+      },
+      {
+        "id": 65,
+        "name": "PhonePe",
+        "location": "Pune",
+        "industry": "Automotive",
+        "employees": 339
+      },
+      {
+        "id": 66,
+        "name": "Razorpay",
+        "location": "Ahmedabad",
+        "industry": "Software",
+        "employees": 174
+      },
+      {
+        "id": 67,
+        "name": "CRED",
+        "location": "Chennai",
+        "industry": "Automotive",
+        "employees": 411
+      },
+      {
+        "id": 68,
+        "name": "UrbanClap",
+        "location": "Mumbai",
+        "industry": "Finance",
+        "employees": 255
+      },
+      {
+        "id": 69,
+        "name": "PolicyBazaar",
+        "location": "Kolkata",
+        "industry": "E-commerce",
+        "employees": 105
+      },
+      {
+        "id": 70,
+        "name": "Dream11",
+        "location": "Gurgaon",
+        "industry": "Healthcare",
+        "employees": 355
+      },
+      {
+        "id": 71,
+        "name": "Groww",
+        "location": "Chennai",
+        "industry": "Biotech",
+        "employees": 438
+      },
+      {
+        "id": 72,
+        "name": "Meesho",
+        "location": "Delhi",
+        "industry": "Environment",
+        "employees": 346
+      },
+      {
+        "id": 73,
+        "name": "Nykaa",
+        "location": "Chennai",
+        "industry": "Biotech",
+        "employees": 218
+      },
+      {
+        "id": 74,
+        "name": "FabIndia",
+        "location": "Bengaluru",
+        "industry": "Healthcare",
+        "employees": 360
+      },
+      {
+        "id": 75,
+        "name": "Tanishq",
+        "location": "Bengaluru",
+        "industry": "Energy",
+        "employees": 166
+      },
+      {
+        "id": 76,
+        "name": "Vadilal",
+        "location": "Gurgaon",
+        "industry": "E-commerce",
+        "employees": 162
+      },
+      {
+        "id": 77,
+        "name": "Amul",
+        "location": "Kolkata",
+        "industry": "Education",
+        "employees": 422
+      },
+      {
+        "id": 78,
+        "name": "Parle Products",
+        "location": "Kolkata",
+        "industry": "Environment",
+        "employees": 200
+      },
+      {
+        "id": 79,
+        "name": "Dabur India",
+        "location": "Gurgaon",
+        "industry": "Healthcare",
+        "employees": 457
+      },
+      {
+        "id": 80,
+        "name": "Havells India",
+        "location": "Hyderabad",
+        "industry": "Education",
+        "employees": 347
+      },
+      {
+        "id": 81,
+        "name": "Voltas",
+        "location": "Mumbai",
+        "industry": "Environment",
+        "employees": 207
+      },
+      {
+        "id": 82,
+        "name": "Bajaj Electricals",
+        "location": "Mumbai",
+        "industry": "E-commerce",
+        "employees": 464
+      },
+      {
+        "id": 83,
+        "name": "Wockhardt",
+        "location": "Hyderabad",
+        "industry": "Agriculture",
+        "employees": 314
+      },
+      {
+        "id": 84,
+        "name": "Siemens India",
+        "location": "Gurgaon",
+        "industry": "Software",
+        "employees": 423
+      },
+      {
+        "id": 85,
+        "name": "ABB India",
+        "location": "Chennai",
+        "industry": "Biotech",
+        "employees": 105
+      },
+      {
+        "id": 86,
+        "name": "Schneider Electric India",
+        "location": "Gurgaon",
+        "industry": "Healthcare",
+        "employees": 249
+      },
+      {
+        "id": 87,
+        "name": "Bosch India",
+        "location": "Pune",
+        "industry": "Environment",
+        "employees": 144
+      },
+      {
+        "id": 88,
+        "name": "TVS Motor",
+        "location": "Delhi",
+        "industry": "Environment",
+        "employees": 472
+      },
+      {
+        "id": 89,
+        "name": "Bajaj Auto",
+        "location": "Chennai",
+        "industry": "Environment",
+        "employees": 313
+      },
+      {
+        "id": 90,
+        "name": "Eicher Motors",
+        "location": "Hyderabad",
+        "industry": "Energy",
+        "employees": 305
+      },
+      {
+        "id": 91,
+        "name": "Ashok Leyland",
+        "location": "Hyderabad",
+        "industry": "Agriculture",
+        "employees": 220
+      },
+      {
+        "id": 92,
+        "name": "Mahindra Electric",
+        "location": "Chennai",
+        "industry": "Energy",
+        "employees": 178
+      },
+      {
+        "id": 93,
+        "name": "Hero Electric",
+        "location": "Mumbai",
+        "industry": "Software",
+        "employees": 50
+      },
+      {
+        "id": 94,
+        "name": "SBI Life Insurance",
+        "location": "Mumbai",
+        "industry": "Automotive",
+        "employees": 134
+      },
+      {
+        "id": 95,
+        "name": "Max Life Insurance",
+        "location": "Mumbai",
+        "industry": "Healthcare",
+        "employees": 197
+      },
+      {
+        "id": 96,
+        "name": "ICICI Prudential Life",
+        "location": "Pune",
+        "industry": "Agriculture",
+        "employees": 241
+      },
+      {
+        "id": 97,
+        "name": "HDFC Asset Management",
+        "location": "Hyderabad",
+        "industry": "Agriculture",
+        "employees": 516
+      },
+      {
+        "id": 98,
+        "name": "Axis Mutual Fund",
+        "location": "Chennai",
+        "industry": "Agriculture",
+        "employees": 536
+      },
+      {
+        "id": 99,
+        "name": "Aditya Birla Capital",
+        "location": "Mumbai",
+        "industry": "Biotech",
+        "employees": 520
+      },
+      {
+        "id": 100,
+        "name": "Kotak Mutual Fund",
+        "location": "Chennai",
+        "industry": "Energy",
+        "employees": 744
+      },
+      {
+        "id": 101,
+        "name": "Sundaram Finance",
+        "location": "Delhi",
+        "industry": "Finance",
+        "employees": 671
+      },
+      {
+        "id": 102,
+        "name": "IndusInd Bank",
+        "location": "Gurgaon",
+        "industry": "Software",
+        "employees": 600
+      },
+      {
+        "id": 103,
+        "name": "Titan Company",
+        "location": "Jaipur",
+        "industry": "Software",
+        "employees": 700
+      },
+      {
+        "id": 104,
+        "name": "HCL Infosystems",
+        "location": "Delhi",
+        "industry": "Finance",
+        "employees": 866
+      },
+      {
+        "id": 105,
+        "name": "Oracle India",
+        "location": "Chennai",
+        "industry": "Environment",
+        "employees": 822
+      },
+      {
+        "id": 106,
+        "name": "IBM India",
+        "location": "Gurgaon",
+        "industry": "Healthcare",
+        "employees": 900
+      },
+      {
+        "id": 107,
+        "name": "Dell India",
+        "location": "Chennai",
+        "industry": "Agriculture",
+        "employees": 2950
+      },
+      {
+        "id": 108,
+        "name": "Capgemini India",
+        "location": "Gurgaon",
+        "industry": "Finance",
+        "employees": 3570
+      },
+      {
+        "id": 109,
+        "name": "Accenture India",
+        "location": "Kolkata",
+        "industry": "Energy",
+        "employees": 1110
+      },
+      {
+        "id": 110,
+        "name": "Mindtree Consulting",
+        "location": "Hyderabad",
+        "industry": "Automotive",
+        "employees": 276
+      },
+      {
+        "id": 111,
+        "name": "Tata Elxsi",
+        "location": "Delhi",
+        "industry": "Healthcare",
+        "employees": 228
+      },
+      {
+        "id": 112,
+        "name": "Persistent Systems",
+        "location": "Pune",
+        "industry": "Software",
+        "employees": 459
+      },
+      {
+        "id": 113,
+        "name": "Accenture",
+        "location": "Bengaluru",
+        "industry": "Software",
+        "employees": 410
+      },
+      {
+        "id": 114,
+        "name": "Oracle",
+        "location": "Kolkata",
+        "industry": "Software",
+        "employees": 622
+      },
+      {
+        "id": 115,
+        "name": "Capgemini",
+        "location": "Chennai",
+        "industry": "Software",
+        "employees": 350
+      }
+      
+    ]
+  }
