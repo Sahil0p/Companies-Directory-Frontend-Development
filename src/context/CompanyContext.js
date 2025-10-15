@@ -18,19 +18,39 @@ export const CompanyProvider = ({ children }) => {
   const [page, setPage] = useState(1);
   const PAGE_SIZE = 6;
 
-  useEffect(() => {
+//   useEffect(() => {
+//     fetchCompanies()
+//       .then(data => {
+//         setAllCompanies(data);
+//         setLoading(false);
+//         const maxEmployees = Math.max(...data.map(c => c.employees));
+//         setEmployeeCountRange([0, maxEmployees]);
+//       })
+//       .catch(err => {
+//         setError(err.message);
+//         setLoading(false);
+//       });
+//   }, []);
+
+useEffect(() => {
     fetchCompanies()
       .then(data => {
-        setAllCompanies(data);
+        // Expect response shape: { companies: [...] }
+        if (data.companies && Array.isArray(data.companies)) {
+          setAllCompanies(data.companies);
+          const maxEmployees = Math.max(...data.companies.map(c => c.employees));
+          setEmployeeCountRange([0, maxEmployees]);
+        } else {
+          setAllCompanies([]);
+        }
         setLoading(false);
-        const maxEmployees = Math.max(...data.map(c => c.employees));
-        setEmployeeCountRange([0, maxEmployees]);
       })
       .catch(err => {
         setError(err.message);
         setLoading(false);
       });
   }, []);
+  
 
   useEffect(() => {
     // Filtering full data each time filters or employeeCountRange or sort changes
