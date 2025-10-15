@@ -6,6 +6,11 @@ Built with **Material UI** for a sleek, responsive UI and **React Context API** 
 
 ---
 
+## Live Link
+```bash
+https://companiesdirectoryfrontend.netlify.app/
+```
+
 ## 🛠️ Features
 - 🔍  Dynamic Filtering — by name, industry, location, and employee count range
 - ↕️  Infinite Scrolling — load more companies as you scroll, no pagination clicks
