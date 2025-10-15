@@ -1,8 +1,3 @@
-// export const fetchCompanies = async () => {
-//     const response = await fetch('http://localhost:5000/companies');
-//     return response.json();
-//   };
-
 const API_URL = 'http://localhost:5000/companies';
 
 export const fetchCompanies = async () => {
