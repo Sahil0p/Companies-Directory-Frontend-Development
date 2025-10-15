@@ -6,7 +6,7 @@ Built with **Material UI** for a sleek, responsive UI and **React Context API** 
 
 ---
 
-## Live Link
+## 🌐 Live Link
 ```bash
 https://companiesdirectoryfrontend.netlify.app/
 ```
